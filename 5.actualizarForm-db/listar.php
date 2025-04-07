@@ -43,13 +43,13 @@ $res = $con->query("SELECT * FROM users");
                 echo "<td>".$fila['age']."</td>";
                 echo "<td>";
                     echo "<a href=editarForm.php?id_user=".$fila['id'].">";
-                        echo "Editar".$fila['id'];
+                        echo "Editar";
                     echo "</a>";
                 echo "<td>";
 
                 echo "<td>";
-                    echo "<a href=editarForm.php?id_user=".$fila['id'].">";
-                        echo "Eliminar".$fila['id'];
+                    echo "<a href=eliminar.php?id_user=".$fila['id'].">";
+                        echo "Eliminar";
                     echo "</a>";
                 echo "<td>";
 
