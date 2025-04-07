@@ -1,0 +1,17 @@
+{
+    "presentation-mode.configBackup": {
+        "window.zoomLevel": "undefined",
+        "editor.parameterHints.enabled": "undefined",
+        "editor.inlayHints.enabled": "undefined",
+        "editor.suggest.selectionMode": "undefined",
+        "editor.suggest.showWords": "undefined",
+        "editor.suggestFontSize": "undefined",
+        "editor.suggestLineHeight": "undefined",
+        "editor.wordBasedSuggestions": "undefined",
+        "workbench.activityBar.location": "undefined",
+        "workbench.statusBar.visible": "undefined",
+        "breadcrumbs.enabled": "undefined",
+        "workbench.tree.enableStickyScroll": "undefined",
+        "workbench.editor.showTabs": "undefined"
+    }
+}
