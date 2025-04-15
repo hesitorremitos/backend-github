@@ -30,7 +30,7 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST'){
         echo "Usuario con ID {$_GET['id']} no encontrado.";
         exit;
     }else{
-        include '../views/user_delete_form.php';
+        include '../views/user_update_form.php';
         exit;
     }
 
