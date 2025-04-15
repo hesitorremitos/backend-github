@@ -16,6 +16,7 @@
             <th>Nombre</th>
             <th>Edad</th>
             <th>Email</th>
+            <th>Acciones</th>
         </tr>
         <?php if (!empty($users)): ?>
             <?php foreach ($users as $user): ?>
@@ -24,6 +25,10 @@
                     <td><?= htmlspecialchars($user['name']) ?></td>
                     <td><?= htmlspecialchars($user['age']) ?></td>
                     <td><?= htmlspecialchars($user['email']) ?></td>
+                    <td>
+                        <a href="user_update.php?id=<?= htmlspecialchars($user['id']) ?>">Actualizar</a>
+                        <a href="user_delete.php?id=<?= htmlspecialchars($user['id']) ?>">Eliminar</a>
+                    </td>
                 </tr>
             <?php endforeach; ?>
         <?php else: ?>
