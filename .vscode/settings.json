@@ -3,8 +3,6 @@
         "window.zoomLevel": "undefined",
         "editor.parameterHints.enabled": "undefined",
         "editor.inlayHints.enabled": "undefined",
-        "editor.suggest.selectionMode": "undefined",
-        "editor.suggest.showWords": "undefined",
         "editor.suggestFontSize": "undefined",
         "editor.suggestLineHeight": "undefined",
         "editor.wordBasedSuggestions": "undefined",
@@ -13,5 +11,13 @@
         "breadcrumbs.enabled": "undefined",
         "workbench.tree.enableStickyScroll": "undefined",
         "workbench.editor.showTabs": "undefined"
+    },
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false,
+        "quarto": true,
+        "php": false
     }
 }
