@@ -13,11 +13,12 @@
         "workbench.editor.showTabs": "undefined"
     },
     "github.copilot.enable": {
-        "*": false,
+        "quarto": true,
+        "*": true,
         "plaintext": false,
         "markdown": true,
         "scminput": false,
-        "quarto": true,
-        "php": false
+        "php": true,
+        "sql": true
     }
 }
